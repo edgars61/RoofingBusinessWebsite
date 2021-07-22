@@ -3,13 +3,32 @@
 
 .intro-section {
     @include gradient;
-    padding: 10rem 0 0 0;
+    padding: 10rem 0 4rem 0;
     width: 100%;
-    height: 100%;
+
 }
+@media only screen and (max-width: 600px) {
+    .intro-section {
+        padding-bottom: 10rem;
+    }
+  }
 
 .intros {
 
+    .fa-arrow-right{
+        color: white !important;
+    }
+    img{
+       height: 43.75rem;
+       height: 34rem;
+       width: 100%;;
+       clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+     
+
+
+    }
+
+  
 
     .video-box {
         position: relative;

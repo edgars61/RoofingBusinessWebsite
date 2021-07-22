@@ -1,10 +1,28 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
+.navbar-banner{
 
+
+
+  background-color: #101010;
+  color: $white;
+  font-family: 'Roboto', serif !important;
+  div{
+
+    text-align: center;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  .navbar-banner {
+  }
+}
 .menu {
+  font-family: 'Roboto', serif;
     @include gradient;
-
-
+    img{
+      height: 4.5rem;
+    }
     li {
       padding: 0 0.7rem;
 
@@ -20,5 +38,6 @@
       }
   
     }
-    
+
+  
 }

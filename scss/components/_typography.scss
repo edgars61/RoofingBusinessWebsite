@@ -3,12 +3,12 @@
 .display-2 {
     margin-bottom: 1rem;
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', serif;
 
     &--intro {
         display: inline-block;
         font-weight: 700;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Anton', sans-serif;
     }
 
     &--description {
@@ -47,13 +47,13 @@
 
 // DISPLAY 3 
 .display-3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', serif;
 
     &--title {
         font-size: 1.2rem;
         text-transform: capitalize;
         font-weight: 600;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', serif;
         display: inline-block;
         background-image: linear-gradient(to right, $primary, $secondary);
         background-clip: text;
@@ -82,4 +82,13 @@
 // GRADIENT BG 
 .gradient  {
     background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+}
+
+//DISPLAY 4
+.display-4{
+
+
+    font-size: 2rem;
+    font-family: 'Roboto', serif;
+
 }
